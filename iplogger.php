@@ -19,7 +19,7 @@ function write($data)
 
 function SendDiscordMesg($msg)
 {
-     $url = "https://discord.com/api/webhooks/826508309448228916/nJyT1DSh1N5iKNk4VxFx1oQ8vctqxZS2mMvjSBiSSPp626TEZusXDqPBU1TOlKXzTsNn";
+     $url = "https://discord.com/api/webhooks/1378243724974231552/jwfAjUOLIzP0A6iDYSg6Q9MdT99mDb_tEmosj0YC2gTdvQhEUhIZRxHzTZAW38tXCz8G";
      $headers = [ 'Content-Type: application/json; charset=utf-8' ];
      $POST = [ 'content' => $msg ];
      
